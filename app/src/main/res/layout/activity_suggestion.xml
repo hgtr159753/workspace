@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toorbar_main" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="#FFFFFF"
+        android:padding="15sp"
+        android:text="@string/suggest_des" />
+
+    <EditText
+        android:id="@+id/feedback_content"
+        android:layout_width="345dp"
+        android:layout_height="165dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_boder"
+        android:gravity="top"
+        android:hint="请在这里写下您的意见和建议，我们将不断进步～"
+        android:padding="10dp"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="联系电话："
+            android:textColor="#3C4150"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/feedback_contact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:hint="选填"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:padding="5dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/feedback_btn"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/btn_background"
+        android:gravity="center"
+        android:text="提交意见反馈"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+</LinearLayout>

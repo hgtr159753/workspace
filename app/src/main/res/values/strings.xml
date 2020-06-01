@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">智能语音识别</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="suggest_des">很希望这款备忘录能够帮助到您，如果您还有其他想要的功能，可以联系我们，我们很愿意为您提供帮助</string>
+    <string name="text_file_size">文件大小：%1$s</string>
+    <string name="title_item">功能</string>
+    <string name="trimming">正在转换...</string>
+</resources>

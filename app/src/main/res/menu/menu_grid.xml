@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/moments"
+        android:icon="@mipmap/cmm_img"
+        android:title="重命名" />
+    <item
+        android:id="@+id/share_btn"
+        android:icon="@mipmap/share_img"
+        android:title="分享音频" />
+    <item
+        android:id="@+id/share_voice"
+        android:icon="@mipmap/voice_img"
+        android:title="转文字" />
+    <item
+        android:id="@+id/share_translate"
+        android:icon="@mipmap/translate_img"
+        android:title="去翻译" />
+    <item
+        android:id="@+id/delect_btn"
+        android:icon="@mipmap/delectbot_img"
+        android:title="删除" />
+
+</menu>
